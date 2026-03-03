@@ -42,7 +42,7 @@ rustc --version
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/baker42757/Polymarket-market-maker-bot.git
+git clone https://github.com/gabagool23/Polymarket-market-maker-bot.git
 cd Polymarket-market-maker-bot
 ```
 
@@ -173,4 +173,4 @@ cargo run --release -- --mode test --log-level debug
 | API / auth errors in real mode | Check `POLY_PRIVATE_KEY` or `POLY_API_KEY` / `POLY_API_SECRET` / `POLY_PASSPHRASE` and, if applicable, `POLY_FUNDER_ADDRESS`. |
 | Bot exits immediately | Check logs for errors; often config or env (e.g. missing key or invalid value). |
 
-For more help: **Telegram** [@baker1119](https://t.me/baker1119).
+For more help: **Telegram** [@gabagool21](https://t.me/gabagool21).
