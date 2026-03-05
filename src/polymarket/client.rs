@@ -710,8 +710,8 @@ impl PolymarketClient {
         };
 
         // Call Python script with inherited and explicit environment variables
-        let mut command = std::process::Command::new("/app/venv/bin/python3");
-        command.arg("/app/scripts/sign_order.py")
+        let mut command = std::process::Command::new("python3");
+        command.arg("scripts/sign_order.py")
             .arg(&order.token_id)
             .arg(side_str)
             .arg(order.price.to_string())
